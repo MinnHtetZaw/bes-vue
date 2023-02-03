@@ -1,0 +1,120 @@
+body{
+    transition: .5s;
+}
+p{
+    font-size: 14px;
+    color: rgba(62, 62, 63, 0.85);
+}
+li{
+    font-size: 14px;
+    color: rgba(62, 62, 63, 0.85);
+}
+
+th{
+    font-size: 11px;
+    line-height: 40px;
+    color: #020F1EA5;
+    font-weight: bold;
+}
+td{
+    font-size: 13px;
+    line-height: 30px;
+    color: #050505DD;
+}
+
+.text-title{
+    color: #020F1EA5;
+    font-size: 17px;
+    font-weight: bold;
+}
+.text-subtitle{
+    color: rgba(5, 5, 5, 0.71);
+    font-size: 17px;
+}
+
+
+
+/*Nav*/
+/*Body*/
+.main{
+    height: 100vh !important;
+    overflow: scroll;
+}
+/*.nav-link{*/
+/*    color: #757575 !important;*/
+/*    padding: 5px 5px 5px 5px !important;*/
+/*}*/
+/*.nav-link:hover{*/
+/*    border-radius: 7px;*/
+/*    background: rgba(243, 245, 246, 0.13);*/
+/*}*/
+/*.nav-link.active{*/
+/*    border-radius: 7px;*/
+/*    background: #fff;*/
+/*    font-weight: 400;*/
+/*    color: #696cff !important;*/
+/*}*/
+.accordion-button{
+    font-size: 14px !important;
+    background-color: #696cff !important;
+}
+.accordion-button.nav-link{
+    color: #fff !important;
+}
+ul ul{
+    list-style-type: none !important;
+}
+/*Shadow*/
+.shadow-sm{
+    box-shadow: 0 2px 6px 0 rgb(67 89 113 / 12%) !important;
+}
+
+/*Nav Pill*/
+
+
+
+/*Card*/
+.card {
+    align-items: stretch!important;
+    background: #fff !important;
+    border-radius: 9px !important;
+    box-shadow: 0 3px 5px 0 rgb(36 50 66 / 20%) !important;
+    transition: box-shadow .4s !important;
+}
+.card:hover {
+    box-shadow: 0 20px 30px 0 rgb(36 50 66 / 14%) !important;
+}
+/*.card.shadow-sm{*/
+/*    box-shadow: 0 2px 10px 0 rgb(94 86 105 / 25%) !important;*/
+/*}*/
+/*.card.rounded{*/
+/*    border-radius: 0.5rem !important;*/
+/*}*/
+/*accordion-button*/
+
+
+/*Company Name*/
+
+
+/*html element*/
+a.page-link.active{
+    background-color: #696cff !important;
+    border-color: #696cff !important;
+    color: #ffffff !important;
+}
+
+.offcanvas-backdrop.show {
+    opacity: .2;
+}
+
+.offcanvas-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(5, 5, 5, 0.51) !important;
+}
+
+/*profit*/
